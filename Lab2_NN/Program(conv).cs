@@ -14,6 +14,7 @@ namespace Neuronets
                 layer.FuncDefaultParam = 1.0; //задание параметра активационной функции 
 
             nnConv.SetLinks();
+            int d = 3;
 
             var np = new NeuroPreceptor(nnConv, 0.000000001);
             //1,113 | 0,898
