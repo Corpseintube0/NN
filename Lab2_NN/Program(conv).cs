@@ -7,6 +7,7 @@ namespace Neuronets
     {
         static void Main(string[] args)
         {
+            int a;
             //Конвертер валют
             var nnConv = new Neuronet(new[] {1, 2, 1}, FunctionType.Linear);
                 //конструктор, задающий общую структуру сети
